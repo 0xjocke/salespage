@@ -1,0 +1,49 @@
+@import "susy";
+
+   
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+);
+.container{
+	@include container(80em);
+	//@include susy-grid-background;
+}
+
+.playCon{
+	margin-top: 1rem;
+	@include span(1 of 12);
+}
+
+
+.tags{
+	@include span(3 of 12);
+	@include squish(6,1);
+	margin-top:1rem;
+	display: block;
+}
+
+.logo{
+	@include span(1 of 12);
+}
+.mainText{
+	@include span(10 of 12);
+	@include squish(1, 1);
+	margin-bottom: 15rem;
+	margin-top: 1rem;
+}
+
+
+.row{
+	margin-top: -5rem;
+	text-align: center;
+}
+
+.infotext{
+	@include span(6 of 12);
+	@include squish(3,3);
+
+}

@@ -1,0 +1,57 @@
+@import "compass/reset";
+@import "layout";
+@import "playBtn"; 
+@import "gubbar";
+
+
+body{
+	background: #db3a87; 
+	font-family: helvetica;
+
+}
+header{
+	width: 100%;
+	margin-bottom: 2rem;
+
+}
+h1{
+	font-size: 4rem;
+	color: white;
+
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+}
+p{
+	color: white;
+	font-size: 1.5rem;
+}
+.main{
+	width: 100%;
+	margin-top:2.4rem;
+	margin-bottom:10rem;
+}
+.pixelgubbar{
+	width: 100%;
+	background: #DB1082;
+	padding-bottom: 3rem;
+}
+
+
+.infotext{
+	margin-top: 2rem;
+	font-size: 1.5rem;
+	color: white;
+	text-align: center;
+	p{
+		margin-bottom: 1.4rem;
+	}
+	a{
+		background: white;
+		border: 2px solid grey;
+		color: grey;
+		border-radius: 0.5rem;
+		padding: 0.5rem;
+		text-decoration: none;
+		margin-top: 2rem;
+	}
+}

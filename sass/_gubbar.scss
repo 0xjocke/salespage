@@ -1,0 +1,22 @@
+ .gubbe{
+ 	width: 5.5rem;
+ 	height: 12rem;
+ 	display: inline-block; 
+ 	margin-left: -0.5rem;
+ 	margin-right: -0.5rem;
+
+ 	background-repeat: no-repeat;
+ } 
+
+@for $i from 1 through 13 {
+	 #person#{$i}{
+ 		background-image: url('../img/gubbar/person#{$i}.png') ;
+		margin-top: -10rem;
+ 	}
+}
+
+@for $i from 14 through 25 {
+	 #person#{$i}{
+ 		background-image: url('../img/gubbar/person#{$i}.png') ;
+ 	}
+}

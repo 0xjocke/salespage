@@ -1,0 +1,462 @@
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 11, ../../sass/_layout.scss */
+.container {
+  max-width: 80em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.1/sass/susy/output/support/_clearfix.scss */
+.container::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 16, ../../sass/_layout.scss */
+.playCon {
+  margin-top: 1rem;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 8.33333%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+/* line 22, ../../sass/_layout.scss */
+.tags {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  margin-left: 50%;
+  margin-right: 8.33333%;
+  margin-top: 1rem;
+  display: block;
+}
+
+/* line 29, ../../sass/_layout.scss */
+.logo {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 8.33333%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+/* line 32, ../../sass/_layout.scss */
+.mainText {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 83.33333%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  margin-left: 8.33333%;
+  margin-right: 8.33333%;
+  margin-bottom: 15rem;
+  margin-top: 1rem;
+}
+
+/* line 40, ../../sass/_layout.scss */
+.row {
+  margin-top: -5rem;
+  text-align: center;
+}
+
+/* line 45, ../../sass/_layout.scss */
+.infotext {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/* line 1, ../../sass/_playBtn.scss */
+.play span {
+  cursor: pointer;
+  height: 80px;
+  width: 80px;
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  text-indent: -9999px;
+}
+
+/* line 11, ../../sass/_playBtn.scss */
+.play span:before,
+.play span:after {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 18, ../../sass/_playBtn.scss */
+.play {
+  width: 80px;
+  cursor: pointer;
+  height: 80px;
+  display: Block;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+/* line 27, ../../sass/_playBtn.scss */
+.play span {
+  margin: 0;
+}
+
+/* line 30, ../../sass/_playBtn.scss */
+.play span:before {
+  content: '';
+  height: 0px;
+  width: 0px;
+  display: block;
+  background: transparent;
+  border: 20px transparent solid;
+  border-right-width: 0;
+  border-left-color: #ffffff;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  margin: -20px 0 0 -10px;
+}
+
+/* line 44, ../../sass/_playBtn.scss */
+.play span:after {
+  content: '';
+  height: 0px;
+  width: 0px;
+  display: block;
+  background: transparent;
+  border: 20px transparent solid;
+  border-right-width: 0;
+  border-left-color: #ffffff;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  margin: -20px 0 0 -10px;
+}
+
+/* line 58, ../../sass/_playBtn.scss */
+.play.active {
+  width: 80px;
+  height: 80px;
+  z-index: 0;
+}
+
+/* line 63, ../../sass/_playBtn.scss */
+.play.active span:before {
+  content: '';
+  border: 5px #ffffff solid;
+  border-top-width: 40px;
+  border-bottom-width: 0;
+  left: 37.5%;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+/* line 75, ../../sass/_playBtn.scss */
+.play.active span:after {
+  content: '';
+  border: 5.333333333333333px #ffffff solid;
+  border-bottom-width: 0;
+  border-top-width: 40px;
+  left: 62.5%;
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+}
+
+/* line 1, ../../sass/_gubbar.scss */
+.gubbe {
+  width: 5.5rem;
+  height: 12rem;
+  display: inline-block;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../../sass/_gubbar.scss */
+#person1 {
+  background-image: url("../img/gubbar/person1.png");
+  margin-top: -10rem;
+}
+
+/* line 12, ../../sass/_gubbar.scss */
+#person2 {
+  background-image: url("../img/gubbar/person2.png");
+  margin-top: -10rem;
+}
+
+/* line 12, ../../sass/_gubbar.scss */
+#person3 {
+  background-image: url("../img/gubbar/person3.png");
+  margin-top: -10rem;
+}
+
+/* line 12, ../../sass/_gubbar.scss */
+#person4 {
+  background-image: url("../img/gubbar/person4.png");
+  margin-top: -10rem;
+}
+
+/* line 12, ../../sass/_gubbar.scss */
+#person5 {
+  background-image: url("../img/gubbar/person5.png");
+  margin-top: -10rem;
+}
+
+/* line 12, ../../sass/_gubbar.scss */
+#person6 {
+  background-image: url("../img/gubbar/person6.png");
+  margin-top: -10rem;
+}
+
+/* line 12, ../../sass/_gubbar.scss */
+#person7 {
+  background-image: url("../img/gubbar/person7.png");
+  margin-top: -10rem;
+}
+
+/* line 12, ../../sass/_gubbar.scss */
+#person8 {
+  background-image: url("../img/gubbar/person8.png");
+  margin-top: -10rem;
+}
+
+/* line 12, ../../sass/_gubbar.scss */
+#person9 {
+  background-image: url("../img/gubbar/person9.png");
+  margin-top: -10rem;
+}
+
+/* line 12, ../../sass/_gubbar.scss */
+#person10 {
+  background-image: url("../img/gubbar/person10.png");
+  margin-top: -10rem;
+}
+
+/* line 12, ../../sass/_gubbar.scss */
+#person11 {
+  background-image: url("../img/gubbar/person11.png");
+  margin-top: -10rem;
+}
+
+/* line 12, ../../sass/_gubbar.scss */
+#person12 {
+  background-image: url("../img/gubbar/person12.png");
+  margin-top: -10rem;
+}
+
+/* line 12, ../../sass/_gubbar.scss */
+#person13 {
+  background-image: url("../img/gubbar/person13.png");
+  margin-top: -10rem;
+}
+
+/* line 19, ../../sass/_gubbar.scss */
+#person14 {
+  background-image: url("../img/gubbar/person14.png");
+}
+
+/* line 19, ../../sass/_gubbar.scss */
+#person15 {
+  background-image: url("../img/gubbar/person15.png");
+}
+
+/* line 19, ../../sass/_gubbar.scss */
+#person16 {
+  background-image: url("../img/gubbar/person16.png");
+}
+
+/* line 19, ../../sass/_gubbar.scss */
+#person17 {
+  background-image: url("../img/gubbar/person17.png");
+}
+
+/* line 19, ../../sass/_gubbar.scss */
+#person18 {
+  background-image: url("../img/gubbar/person18.png");
+}
+
+/* line 19, ../../sass/_gubbar.scss */
+#person19 {
+  background-image: url("../img/gubbar/person19.png");
+}
+
+/* line 19, ../../sass/_gubbar.scss */
+#person20 {
+  background-image: url("../img/gubbar/person20.png");
+}
+
+/* line 19, ../../sass/_gubbar.scss */
+#person21 {
+  background-image: url("../img/gubbar/person21.png");
+}
+
+/* line 19, ../../sass/_gubbar.scss */
+#person22 {
+  background-image: url("../img/gubbar/person22.png");
+}
+
+/* line 19, ../../sass/_gubbar.scss */
+#person23 {
+  background-image: url("../img/gubbar/person23.png");
+}
+
+/* line 19, ../../sass/_gubbar.scss */
+#person24 {
+  background-image: url("../img/gubbar/person24.png");
+}
+
+/* line 19, ../../sass/_gubbar.scss */
+#person25 {
+  background-image: url("../img/gubbar/person25.png");
+}
+
+/* line 7, ../../sass/style.scss */
+body {
+  background: #db3a87;
+  font-family: helvetica;
+}
+
+/* line 12, ../../sass/style.scss */
+header {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* line 17, ../../sass/style.scss */
+h1 {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* line 24, ../../sass/style.scss */
+p {
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* line 28, ../../sass/style.scss */
+.main {
+  width: 100%;
+  margin-top: 2.4rem;
+  margin-bottom: 10rem;
+}
+
+/* line 33, ../../sass/style.scss */
+.pixelgubbar {
+  width: 100%;
+  background: #DB1082;
+  padding-bottom: 3rem;
+}
+
+/* line 40, ../../sass/style.scss */
+.infotext {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+/* line 45, ../../sass/style.scss */
+.infotext p {
+  margin-bottom: 1.4rem;
+}
+/* line 48, ../../sass/style.scss */
+.infotext a {
+  background: white;
+  border: 2px solid grey;
+  color: grey;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  margin-top: 2rem;
+}
