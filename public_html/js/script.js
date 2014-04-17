@@ -11,6 +11,7 @@ $(document).ready(function () {
             $('#person28').sprite({fps: 5, no_of_frames: 3});
             $('#person24').sprite({fps: 5, no_of_frames: 2}); 
             $('#person22').sprite({fps: 5, no_of_frames: 2}); 
+            $('#person19').sprite({fps: 5, no_of_frames: 2}); 
         }else{
             document.getElementById('music').pause();
             $('#person4').destroy();
@@ -21,14 +22,19 @@ $(document).ready(function () {
             $('#person28').destroy();
             $('#person24').destroy();
             $('#person22').destroy();
+            $('#person19').destroy();
+
         }
     }); 
+    $(".gubbe").hover(function () {
+        $(this).children('p').toggleClass("show");
+    });
 console.log('Hello fellow javascripter!');
 console.log('Looking for work? Send an email to nerd@fortnox.se');
 console.log('Or run job()');
 
-function job(){
-    window.location = 'http://www.fortnox.se/om-fortnox/jobba-pa-fortnox/'
-}
 
 });
+function job(){
+    window.location = 'http://www.fortnox.se/om-fortnox/jobba-pa-fortnox/';
+}

@@ -40,7 +40,7 @@ module.exports = function(grunt) {
         },
         concat: {
             all: {
-                src: ['public_html/js/script.js'],
+                src: ['public_html/js/lib/jquery.js', 'public_html/js/lib/jquery.spritely.js','public_html/js/script.js'],
                 dest: 'public_html/js/build/script.js'    //output
             }
         },
